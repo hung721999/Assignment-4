@@ -15,6 +15,7 @@ body {
   height: 4rem;
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 .main-header__nav {
   align-items: center;

@@ -16,8 +16,8 @@
       <% if (users.length > 0) { %>
       <h2>Welcome Our New User<h2>
       <ul class="list-user">
-        <% for (let user of users) { %>
-        <li><%= user.username %></li>
+        <% for (let i = users.length - 1; i >= 0; i--) { %>
+        <li><%= users[i].username %></li>
         <% } %>
         </ul>
       <% } else { %>
