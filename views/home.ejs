@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <%- include('include/navigation.ejs') %>
+    </header>
+    <main>
+      <h1>Hello From Home Page!</h1>
+      <form class="form-control" action="/user" method="post">
+        <label for="username">Add Username: </label>
+        <input type="text" name="username" id="username" />
+        <button type="submit">Register</button>
+      </form>
+    </main>
+    <footer>&copy;2022 HungNN2</footer>
+  </body>
+</html>

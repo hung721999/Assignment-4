@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-header {
+  background-color: darkseagreen;
+  padding: 0 1rem;
+  margin: 0 0;
+  height: 4rem;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-header__nav {
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.main-header__list-item {
+  list-style: none;
+  display: flex;
+}
+
+.main-header__item a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #4b058d;
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+  color: #d80d3f;
+}
+
+main,
+footer {
+  margin: 0 0;
+  padding: 0 1rem;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+ul.list-user {
+  list-style: "👻";
+  font-size: 20px;
+  font-weight: normal;
+}
+
+ul.list-user li {
+  padding: 1rem 2rem;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+}
